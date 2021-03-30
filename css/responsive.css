@@ -1,0 +1,18 @@
+@media (max-width: 786px) {
+    body {
+        padding-left: -25px;
+        margin: 0 auto;
+    }
+    .header-text-wrapper {
+        width: fit-content;
+    }
+    .curier-delivery-main-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .truck-image {
+        margin-left: -25px;
+        margin-right: -25px;
+        width: 300px;
+    }
+}

@@ -1,0 +1,44 @@
+body {
+    padding: 0 25px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header-text-wrapper::before {
+    content: '';
+    width: 50px;
+    height: 2px;
+    margin-top: 5px;
+    background-color: #85b73c;
+    display: block;
+    float: left;
+    text-align: center;
+}
+.header-text{
+   width: fit-content;
+   margin-left: 60px;
+   color:  #85b73c;;
+
+}
+.curier-delivery-main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.delivery-text {
+    line-height: 40px;
+}
+
+
+.truck-image-wrapper {
+    margin-left: 30px;
+}
+.truck-image-wrapper {
+    margin: 70px 0;
+    
+}
+.truck-image {
+    width: 270px;
+    height: 250px;
+
+}
