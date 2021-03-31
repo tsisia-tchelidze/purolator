@@ -5,6 +5,7 @@
     }
     .header-text-wrapper {
         width: fit-content;
+        font-family: "oper-sens", Helvetica, sans-serif;
     }
     .curier-delivery-main-wrapper {
         display: flex;
