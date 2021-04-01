@@ -46,6 +46,7 @@ body {
    width: 40px;
    height: 40px;
    background-color: blue;
+   margin: 40px 20px;
    border-radius: 100px;
    background-image: url(../image/letter-icon.svg);
    background-repeat: no-repeat;
@@ -56,10 +57,29 @@ body {
     height: 100px;
     background-color: blue;
 }
-.maic-icon-wrapper {
-    max-width: 1000px;
-    position: relative;
+.child-icon-wrapper{
+    max-width: 400px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-around;
 }
-.icon-wrapper-text {
-   display: flex;
+.icon-wrapper-text, .second-icon-wrapper-text {
+   max-width: 300px;
+}
+.second-icon-wrapper-text {
+    text-align: center;
+}
+.second-icon-wrapper {
+    display: flex;
+    justify-content: space-around;
+   
+}
+.icon {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main-icon-wrappper {
+    display: flex;
+    justify-content: space-around;
 }
